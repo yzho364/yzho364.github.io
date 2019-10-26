@@ -305,4 +305,20 @@
 }
 
 
+/*index page*/
+
+.index {
+  font-size: 8vw;
+  font-family: arial;
+}
+
+.index a {
+  color:lime;
+  display: block;
+  text-decoration: none;
+}
+
+.index a:hover {
+  color:black;
+}
 
