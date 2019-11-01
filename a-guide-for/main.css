@@ -1,13 +1,15 @@
 .sub  a{
-	
-}
-
-.sub-1 a{
+	line-height: 5.5vh;
+	margin-left: 3vh;
+	color:black;
+	font-size:1.2vw;
 	text-decoration:none;
 	font-family:arial;
 	font-family:lighter;
-	font-size:2.5vw;
-	color:white;
+}
+
+.sub-1 a{
+	margin-top: 2vh;
 	transition: 0.1s;
 	display: inline-block;
     
@@ -19,11 +21,8 @@
 }
 
 .sub-2 a{
-	text-decoration:none;
-	font-family:arial;
-	font-family:lighter;
-	font-size:2.5vw;
-	color:white;
+	margin-top: -5.2vh;
+	margin-left: 20vh;
 	transition: 0.1s;
 	display: inline-block;
     
@@ -35,13 +34,9 @@
 }
 
 .sub-3 a{
-	text-decoration:none;
-	font-family:arial;
-	font-family:lighter;
-	font-size:2.5vw;
-	color:white;
+	border-top: -30vh;
+	margin-left: 35vh;
 	transition: 0.1s;  
-	display: inline-block;
 }
 
 .sub-3 a:hover {
@@ -50,13 +45,9 @@
 }
 
 .sub-4 a{
-	text-decoration:none;
-	font-family:arial;
-	font-family:lighter;
-	font-size:2.5vw;
-	color:white;
+	margin-top: -31vh;
+	margin-left: 56vh;
 	transition: 0.1s; 
-	display: inline-block; 
 }
 
 .sub-4 a:hover {
@@ -65,11 +56,8 @@
 }
 
 .sub-5 a{
-	text-decoration:none;
-	font-family:arial;
-	font-family:lighter;
-	font-size:2.5vw;
-	color:white;
+	margin-top: -30vh;
+	margin-left: 67vh;
 	transition: 0.1s;  
 }
 
@@ -80,23 +68,21 @@
 
 
 
-.title-top{
+.title a{
+	text-decoration: none;
+	transition:0.1s;
 	font-family:arial;
 	font-size:10vw;
-	margin-top:5vh;
-	margin-left:15vh;
-
-	
+	margin-top:12vh;
+	margin-left:30vh;
+	color:yellow;
 }
 
-.title-bottom{
-	font-family:arial;
-	font-size:10vw;
-	margin-top:20vh;
-	margin-left:15vh;
-	
+.title a:hover{
+	color:red;
+    transition:0.1s;
+    transform:scale(1.10);
 }
-
 
 
 h2{
@@ -166,7 +152,7 @@ h1{
 	transform:scale(1.10);
 }
 
-.paragraph{
+.p-1{
 	font-family:Helvetica,Arial,sans-serif;
 	font-size:5vw;
 	margin-top:2vh;
@@ -181,22 +167,70 @@ h1{
 }
 
 .name{
+	line-height: 12vh;
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:5vw;
+	font-size:4vw;
 	margin-top:2vh;
 	margin-left:8vh;
 	margin-right:7vh;
 	text-height:2vh;
 }
 
-.galleries-1 a{
+.galleries{
 	text-decoration:underline; 
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:5vw;
-	color:black;
+	font-size:4vw;
 	display: block;
 	text-align: center;
+	line-height:14vh;
+
 }
+.galleries-1 a{
+	color:yellow;
+	transition:0.1s; 
+}
+
+.galleries-1 a:hover{
+    color:lime;
+    transition:0.1s;
+}
+
+.galleries-2 a{
+	color:yellow;
+	transition:0.1s; 
+}
+
+.galleries-2 a:hover{
+    color:lime;
+    transition:0.1s;
+}
+
+.m-t { 
+	font-family:Helvetica,Arial;
+	font-size:7vw;
+	color:black;
+	text-align: center;
+
+}
+
+.pic{
+	margin-left: 2vh;
+	margin-top:2.5vh;
+}
+
+.p{
+	font-size: 1vw;
+	margin-top:2vh;
+	margin-left:1vh;
+}
+
+.p-2{
+	font-size:3vw;
+	margin-top:-60vh;
+	margin-left:90vh;
+	color:#FFFFFF;
+}
+
 
 
 
