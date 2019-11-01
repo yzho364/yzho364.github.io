@@ -316,9 +316,21 @@
   color:lime;
   display: block;
   text-decoration: none;
+  transition: 1s;
 }
 
 .index a:hover {
   color:black;
+  transition:1s;
+}
+
+.scale {
+  width: 500px;
+  transition:1s;
+}
+
+.scale:hover {
+  width: 550px;
+  transition:1s;
 }
 
