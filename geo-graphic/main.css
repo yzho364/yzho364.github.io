@@ -286,24 +286,24 @@
 /* Book covers */
 
 
-.box{
-  width: 70vw;
-  height:80vh;
+.box-1{
+  width: 50vw;
+  height:70vh;
   box-shadow:0px 0px 60px 20px blue;
   margin-bottom: 300px;
-  margin-left: 370px; 
+  margin-left: 300px; 
   margin-top: 130px;  
 }
 
 
 /* Menus */
-.line{
+.line {
   width: 40vw;
   height: 2vw;
   background-color: black;
-  margin: 1vw 30vw;
+  margin: 0.5vw 30vw;
+  transition: 1s;
 }
-
 
 /*index page*/
 
@@ -479,6 +479,135 @@
   margin-left:40vh;
   margin-top:-35vh;
 }
+
+/* emojis */
+
+.style{
+  font-size:25vw;
+  margin-left:8vh;
+  margin-top: 20vh;
+}
+
+.style-1{
+  font-size:24vw;
+  text-align:center;
+  margin-top: -60vh;
+
+}
+
+.style-2{
+  font-size:24vw;
+  margin-left:135vh;
+  margin-top: -60vh;
+
+}
+
+/* print */
+
+.n-3{
+  text-align:center;
+  font-size:80vw;
+  color:lime;
+  margin-top: -53vh;
+  font-family:Helvetica,Arial,sans-serif;
+
+}
+
+/* gps */
+
+.box-2 {
+  margin-top:35vh;
+  width:700px;
+  height:300px;
+  background-color: red;
+  /*   add your animation name and settings here */
+  animation-name:growUG;
+  animation-duration:2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/*   add your starting state and your end state  */
+@keyframes growUG {
+  
+  0% {
+    width:100px;
+  }
+  
+  100% {
+    width:600px;
+  }
+  
+  
+}
+
+/* bookmarks */
+
+.graident-linear {
+  margin-left: -0.5vh;
+  margin-top:-1vh;
+  color:blue;
+  width: 100%;
+  height:50vh;
+  background-image: linear-gradient(to left, yellow, lime);
+}
+
+.graident-radial {
+  margin-left: -0.5vh;
+  color:blue;
+  width: 100%;
+  height:50vh;
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+/* tap */
+/* [horizontal offset]
+   [vertical offset]
+   [blur radius]
+   [optional spread radius]
+   [color]
+*/
+
+.box0 {
+  width: 200px;
+  height:200px;
+  box-shadow: 5px 5px 5px #666;
+  margin-bottom: 100px;
+  margin-left: 550px; 
+  background-color: red;
+  transition: 1s;
+}
+
+.box1 {
+  width: 200px;
+  height:200px;
+  box-shadow:3px 3px 15px 6px gray;
+  margin-bottom: 100px;
+  margin-left: 550px;  
+}
+
+.box2 {
+  width: 200px;
+  height:200px;
+  box-shadow:0px 0px 60px 20px #CCFF00;
+  margin-bottom: 100px;
+  margin-left: 550px;    
+}
+
+.box3 {
+  width: 200px;
+  height:200px;
+  box-shadow: 15px 15px 15px blue;
+  margin-bottom: 100px;
+  margin-left: 550px; 
+  background-color: #00FFFF;
+}
+
+
+
+
+
 
 
 
