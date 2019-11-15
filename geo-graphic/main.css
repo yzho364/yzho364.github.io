@@ -239,15 +239,15 @@
 /* round */
 
 .grid {
-  display: flex;
+  display:flex;
   flex-wrap:wrap;
-  font-family:  Helvetica,Arial,sans-serif;
+  font-family:Helvetica,Arial,sans-serif;
   font-size:8vw;
 }
 
 .grid-red {
-  width: 50%;
-  height: 50vh;
+  width:50%;
+  height:50vh;
   background-color: red;
   display:flex;
   align-items:center;
@@ -256,8 +256,8 @@
 }
 
 .grid-blue {
-  width: 50%;
-  height: 50vh;
+  width:50%;
+  height:50vh;
   background-color: blue;
   display:flex;
   align-items:center;
@@ -266,9 +266,9 @@
 }
 
 .grid-green {
-  width: 50%;
-  height: 50vh;
-  background-color: lime;
+  width:50%;
+  height:50vh;
+  background-color:lime;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -308,8 +308,8 @@
 /*index page*/
 
 .index {
-  font-size:8.5vw;
-  font-family: arial;
+  font-size:7vw;
+  font-family:arial;
 }
 
 .index a {
@@ -317,6 +317,7 @@
   display: block;
   text-decoration: none;
   transition: 1s;
+  text-align:center;
 }
 
 .index a:hover {
@@ -333,4 +334,150 @@
   width: 550px;
   transition:1s;
 }
+
+/* moon */
+
+.grid-1 {
+  display:flex;
+}
+
+.grid-1-white {
+  width:50%;
+  height:70vh;
+  background-color:white;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+}
+
+.grid-1-blue {
+  width:50%;
+  height:70vh;
+  background-color: blue;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+}
+
+.name-m{
+  color:red;
+  font-size:15vw;
+  text-align:center;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+/* dirt */ 
+
+.cloud-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(black, gray, yellow);
+}
+
+.cloud-dots {
+  flex: 0 0 20%;
+  background-image: linear-gradient(blue, white, gray);
+  height: 25vh;
+  border-radius: 50%;
+  animation: bgpos 2s infinite linear;
+}
+
+@keyframes bgpos {
+  0% {
+  background-position:0 300px;
+  }
+
+  100% {
+  background-position:0 0px;
+  }
+
+
+/* sand */
+
+  .hemisphere {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hemisphere-circle {
+  width: 50%;
+  height: 100vh;
+  background-color: gray;
+}
+
+.hemisphere-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: rotate 2s linear infinite ;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+}
+
+
+.sky-earth {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.sky-text {
+  font-size: 15vw;
+  text-align: center;
+  width: 100%;
+  color: blue;
+}
+
+.sky-text-2 {
+  font-size:15vw;
+  text-align:center;
+  width: 100%;
+  color: yellow;
+}
+
+.earth-text {
+  font-size: 15vw;
+  text-align: center;
+  width: 100%;
+  color: lime;
+}
+
+/* planet */
+
+.rotate-2{
+  transform: rotate(45deg);
+  transform-origin:bottom left;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:15vh;
+  color:red;
+  margin-left:70vh;
+  margin-top:-30vh;
+}
+
+.rotate-3{
+  transform: rotate(45deg);
+  transform-origin:bottom left;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:15vh;
+  color:yellow;
+  margin-left:40vh;
+  margin-top:-35vh;
+}
+
 
