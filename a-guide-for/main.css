@@ -1,8 +1,8 @@
 .sub  a{
 	line-height: 5.5vh;
 	margin-left: 3vh;
-	color:black;
-	font-size:1.2vw;
+	color:white;
+	font-size:1.25vw;
 	text-decoration:none;
 	font-family:arial;
 	font-family:lighter;
@@ -21,8 +21,6 @@
 }
 
 .sub-2 a{
-	margin-top: -5.2vh;
-	margin-left: 20vh;
 	transition: 0.1s;
 	display: inline-block;
     
@@ -34,8 +32,6 @@
 }
 
 .sub-3 a{
-	border-top: -30vh;
-	margin-left: 35vh;
 	transition: 0.1s;  
 }
 
@@ -45,8 +41,6 @@
 }
 
 .sub-4 a{
-	margin-top: -31vh;
-	margin-left: 56vh;
 	transition: 0.1s; 
 }
 
@@ -56,8 +50,6 @@
 }
 
 .sub-5 a{
-	margin-top: -30vh;
-	margin-left: 67vh;
 	transition: 0.1s;  
 }
 
@@ -74,7 +66,7 @@
 	font-family:arial;
 	font-size:10vw;
 	margin-top:12vh;
-	margin-left:30vh;
+	margin-left:20vh;
 	color:yellow;
 }
 
@@ -176,34 +168,46 @@ h1{
 	text-height:2vh;
 }
 
-.galleries{
+.ga{
 	text-decoration:underline; 
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:4vw;
+	font-size:3vw;
 	display: block;
 	text-align: center;
 	line-height:14vh;
 
 }
-.galleries-1 a{
+.ga-1 a{
 	color:yellow;
 	transition:0.1s; 
 }
 
-.galleries-1 a:hover{
+.ga-1 a:hover{
     color:lime;
     transition:0.1s;
 }
 
-.galleries-2 a{
+.ga-2 a{
 	color:yellow;
 	transition:0.1s; 
 }
 
-.galleries-2 a:hover{
+.ga-2 a:hover{
     color:lime;
     transition:0.1s;
 }
+
+.ga-3 a{
+	color:yellow;
+	transition:0.1s;
+}
+
+.ga-3 a:hover{
+    color:lime;
+    transition:0.1s;
+}
+
+
 
 .m-t { 
 	font-family:Helvetica,Arial;
@@ -231,7 +235,90 @@ h1{
 	color:#FFFFFF;
 }
 
+.p-m{
+	margin-left:10vh;
+	margin-top:5vh;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12vw;
+	color:blue;
+	line-height:23vh;
+}
+
+.p-3{
+	font-size:2.5vw;
+	width:600px;
+    height:200px;
+    margin-left:93vh;
+    margin-top:-46vh;
+    color:#FFFFFF;
+}
+
+.nav{
+	font-size:10vw;
+	font-family:Helvetica,Arial,sans-serif;
+	text-align:center;
+}
+
+.p-4{
+	font-size:2.5vw;
+	width:850px;
+    height:200px;
+    margin-left:29vh;
+    color:white;
+}
+
+.nav-1{
+	font-size:10vw;
+	font-family:Helvetica,Arial,sans-serif;
+	text-align:center;
+}
+
+.p-5{
+	font-size:2.5vw;
+	width:850px;
+    height:200px;
+    margin-left:29vh;
+    color:white;
+}
+
+.p-6{
+	margin-top:3vh;
+	font-size:2.5vw;
+	width:880px;
+    height:200px;
+    margin-left:27vh;
+    color:white;
+}
+
+.p-8{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:5vw;
+	margin-top:2vh;
+	margin-left:8vh;
+	margin-right:8vh;
+}
 
 
+.img {
+	border:white;
+	margin-top:5vh;
+	margin-left:10vh;
+}
+
+
+.img-1{
+	margin-top:-45vh;
+	margin-left:110vh;
+}
+
+.img-2{
+	margin-top:6vh;
+	margin-left:110vh;
+}
+
+.img-3{
+	margin-top:-45vh;
+	margin-left:10vh;
+}
 
 
